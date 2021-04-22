@@ -16,10 +16,7 @@ body {
   font-weight: 400;
   height: 100vh;
   color: #333;
-  /*background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);*/
-  background-image: url("https://images.pexels.com/photos/1408221/pexels-photo-1408221.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -167,4 +164,8 @@ main {
 .player--winner .name {
   font-weight: 700;
   color: #c7365f;
+}
+
+.hidden {
+  display: none;
 }
